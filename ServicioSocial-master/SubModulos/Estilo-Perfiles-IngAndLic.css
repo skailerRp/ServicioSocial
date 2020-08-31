@@ -66,12 +66,6 @@ a.navegadores {
   text-decoration: none;
 }
 
-@media screen and (max-width: 900px) {
-  .cont-general{
-    margin-top: 50px;
-  }
-}
-
 /* Texto para una noticia con imagena a la derecha */
 .text1 {
   
@@ -135,4 +129,28 @@ div.cont-titulo img.imagen-izquierda {
   padding-top: 25px;
   float: left;
   margin-left: 90px;
+}
+
+/* @media screen and (max-width: 900px) {
+  .cont-general{
+    margin-top: 50px;
+  }
+} */
+@media screen and (max-width: 740px) {
+  .cont-general {
+    margin-top: 50px;
+  }
+  div.cont-titulo img.imagen-izquierda {
+    margin-left: 50px;
+  }
+  div.cont-titulo img.imagen-derecha {
+    /* display: none; */
+    width: 180px;
+    height: 100px;
+  }
+  .text1 {
+    font-size: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
 }
